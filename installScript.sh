@@ -20,4 +20,8 @@ echo 'Unattended-Upgrade::Allowed-Origins:: "LP-PPA-mozillateam:${distro_codenam
 mv prefs/mozillappa /etc/apt/preferences.d
 apt update &&
 rm /etc/systemd/system/snap* -r &&
-rm /var/lib/snapd/ -r
+rm /var/lib/snapd/ -r &&
+
+#change the gschema:
+mv schemas/* /usr/share/glib-2.0/shcemas/ &&
+glib-compile-schemas /usr/share/glib-2.0/schemas/

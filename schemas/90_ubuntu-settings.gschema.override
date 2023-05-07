@@ -1,0 +1,2 @@
+[org.gnome.shell]
+favorite-apps = ['ubuntu-desktop-installer_ubuntu-desktop-installer.desktop', 'ubiquity.desktop', 'firefox.desktop', 'evolution.desktop', 'org.gnome.Nautilus.desktop', 'rhythmbox.desktop', 'libreoffice-writer.desktop', 'org.gnome-Software.desktop', 'yelp.desktop']
