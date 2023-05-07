@@ -23,7 +23,9 @@ rm /etc/systemd/system/snap* -r &&
 rm /var/lib/snapd/ -r &&
 
 #install all the extantions
-mv extensions/* /usr/share/gnome-shell/extensions/
+unzip 'extensions/*.zip' &&
+rm 'extensions/*.zip' &&
+mv extensions/* /usr/share/gnome-shell/extensions/ &&
 
 #change the gschema:
 mv schemas/* /usr/share/glib-2.0/shcemas/ &&
