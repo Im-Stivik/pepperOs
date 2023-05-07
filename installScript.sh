@@ -24,8 +24,12 @@ rm /var/lib/snapd/ -r &&
 
 #install all the extantions
 unzip 'extensions/*.zip' &&
-rm 'extensions/*.zip' &&
-mv extensions/* /usr/share/gnome-shell/extensions/ &&
+mv arcmenuarcmenu.com.v44.shell-extension /usr/share/gnome-shell/extensions/&&
+mv dash-to-paneljderose9.github.com.v53.shell-extension /usr/share/gnome-shell/extensions/ &&
+mv nightthemeswitcherromainvigier.fr.v74.shell-extension /usr/share/gnome-shell/extensions/ &&
+mv user-themegnome-shell-extensions.gcampax.github.com.v51.shell-extension /usr/share/gnome-shell/extensions/ &&
+mv widgetsaylur.v24.shell-extension /usr/share/gnome-shell/extensions/ &&
+
 
 #change the gschema:
 mv schemas/* /usr/share/glib-2.0/shcemas/ &&

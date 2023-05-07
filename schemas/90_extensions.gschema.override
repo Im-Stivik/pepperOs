@@ -1,2 +1,2 @@
 [org.gnome.shell]
-enabled-extensions = ['arcmenuarcmenu.com.v44.shell-extension', 'dash-to-paneljderose9.github.com.v53.shell-extension', 'nightthemeswitcherromainvigier.fr.v74.shell-extension', 'user-themegnome-shell-extensions.gcampax.github.com.v51.shell-extension', 'user-themegnome-shell-extensions.gcampax.github.com.v51.shell-extension']
+enabled-extensions = ['arcmenuarcmenu.com.v44.shell-extension', 'dash-to-paneljderose9.github.com.v53.shell-extension', 'nightthemeswitcherromainvigier.fr.v74.shell-extension', 'user-themegnome-shell-extensions.gcampax.github.com.v51.shell-extension', 'user-themegnome-shell-extensions.gcampax.github.com.v51.shell-extension', 'ubuntu-appindicators@ubuntu.com', 'ding@rastersoft.com']
