@@ -29,4 +29,7 @@ mv extensions/* /usr/share/gnome-shell/extensions/ &&
 
 #change the gschema:
 mv schemas/* /usr/share/glib-2.0/shcemas/ &&
-glib-compile-schemas /usr/share/glib-2.0/schemas/
+glib-compile-schemas /usr/share/glib-2.0/schemas/ &&
+
+#install apps and libraries
+apt install libfuse2 -y
