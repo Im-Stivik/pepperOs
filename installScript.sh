@@ -24,12 +24,17 @@ rm /var/lib/snapd/ -r &&
 
 #install all the extantions
 unzip 'extensions/*.zip' &&
-mv arcmenuarcmenu.com.v44.shell-extension /usr/share/gnome-shell/extensions/&&
-mv dash-to-paneljderose9.github.com.v53.shell-extension /usr/share/gnome-shell/extensions/ &&
-mv nightthemeswitcherromainvigier.fr.v74.shell-extension /usr/share/gnome-shell/extensions/ &&
-mv user-themegnome-shell-extensions.gcampax.github.com.v51.shell-extension /usr/share/gnome-shell/extensions/ &&
-mv widgetsaylur.v24.shell-extension /usr/share/gnome-shell/extensions/ &&
-
+mv arcmenu@arcmenu.com /usr/share/gnome-shell/extensions/&&
+mv /dash-to-panel@jderose9.github.com usr/share/gnome-shell/extensions/ &&
+mv nightthemeswitcher@romainvigier.fr /usr/share/gnome-shell/extensions/ &&
+mv user-theme@gnome-shell-extensions.gcampax.github.com /usr/share/gnome-shell/extensions/ &&
+mv widgets@aylur /usr/share/gnome-shell/extensions/ &&
+#make sure that the metadata.json files have the right permissions
+chmod +rw+r+r  /usr/share/gnome-shell/extensions/arcmenu@arcmenu.com/metadata.json
+chmod +rw+r+r  /usr/share/gnome-shell/extensions/dash-to-panel@jderose9.github.com/metadata.json
+chmod +rw+r+r  /usr/share/gnome-shell/extensions/nightthemeswitcher@romainvigier.fr/metadata.json
+chmod +rw+r+r  /usr/share/gnome-shell/extensions/user-theme@gnome-shell-extensions.gcampax.github.com/metadata.json
+chmod +rw+r+r  /usr/share/gnome-shell/extensions/widgets@aylur/metadata.json
 
 #change the gschema:
 mv schemas/* /usr/share/glib-2.0/shcemas/ &&
