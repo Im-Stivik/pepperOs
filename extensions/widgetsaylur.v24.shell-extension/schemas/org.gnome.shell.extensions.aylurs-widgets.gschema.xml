@@ -6,11 +6,11 @@
 
     <!-- enables -->
     <key name="battery-bar" type="b">            <default>true</default></key>
-    <key name="dash-board" type="b">             <default>true</default></key>
+    <key name="dash-board" type="b">             <default>false</default></key>
     <key name="date-menu-tweaks" type="b">       <default>true</default></key>
     <key name="media-player" type="b">           <default>true</default></key>
-    <key name="power-menu" type="b">             <default>true</default></key>
-    <key name="workspace-indicator" type="b">    <default>true</default></key>
+    <key name="power-menu" type="b">             <default>false</default></key>
+    <key name="workspace-indicator" type="b">    <default>false</default></key>
     <key name="notification-indicator" type="b"> <default>true</default></key>
     <key name="background-clock" type="b">       <default>true</default></key>
     <key name="quick-settings-tweaks" type="b">  <default>true</default></key>
@@ -196,7 +196,7 @@
     <key name="date-menu-offset" type="i">                   <default>0</default></key>
     <key name="date-menu-remove-padding" type="b">           <default>false</default></key>
     <key name="date-menu-indicator-position" type="i">       <default>1</default></key>
-    <key name="date-menu-date-format" type="s">              <default>"%H:%M | %a:%d"</default></key>
+    <key name="date-menu-date-format" type="s">              <default>"%H:%M | %d/%m"</default></key>
     <key name="date-menu-mirror" type="b">                   <default>false</default></key>
     <key name="date-menu-hide-notifications" type="b">       <default>false</default></key>
     <key name="date-menu-custom-menu" type="b">              <default>true</default></key>
@@ -204,7 +204,7 @@
     <key name="date-menu-show-clocks" type="b">              <default>true</default></key>
     <key name="date-menu-show-weather" type="b">             <default>true</default></key>
     <key name="date-menu-show-media" type="b">               <default>true</default></key>
-    <key name="date-menu-show-system-levels" type="b">       <default>true</default></key>
+    <key name="date-menu-show-system-levels" type="b">       <default>false</default></key>
     <key name="date-menu-show-user" type="b">                <default>true</default></key>
     <key name="date-menu-levels-show-battery" type="b">      <default>true</default></key>
     <key name="date-menu-levels-show-storage" type="b">      <default>true</default></key>
@@ -227,8 +227,8 @@
     <key name="dynamic-panel-useless-gaps" type="i">         <default>9</default></key>
 
     <!-- notification-indicator -->
-    <key name="notification-indicator-position" type="i">    <default>0</default></key>
-    <key name="notification-indicator-offset" type="i">      <default>0</default></key>
+    <key name="notification-indicator-position" type="i">    <default>2</default></key>
+    <key name="notification-indicator-offset" type="i">      <default>6</default></key>
     <key name="notification-indicator-hide-on-zero" type="b"><default>true</default></key>
     <key name="notification-indicator-menu-width" type="i">  <default>500</default></key>
     <key name="notification-indicator-hide-counter" type="b"><default>false</default></key>
@@ -291,9 +291,9 @@
 
     <!-- quick-toggles -->
     <key name="quick-settings-menu-width" type="i">                       <default>400</default></key>
-    <key name="quick-settings-style" type="i">                            <default>0</default></key>
+    <key name="quick-settings-style" type="i">                            <default>1</default></key>
     <key name="quick-settings-adjust-roundness" type="b">                 <default>true</default></key>
-    <key name="quick-settings-show-notifications" type="b">               <default>true</default></key>
+    <key name="quick-settings-show-notifications" type="b">               <default>false</default></key>
     <key name="quick-settings-show-system-levels" type="b">               <default>true</default></key>
     <key name="quick-settings-show-app-volume-mixer" type="b">            <default>true</default></key>
     <key name="quick-settings-app-volume-mixer-show-description" type="b"><default>true</default></key>
@@ -325,6 +325,6 @@
     <key name="quick-settings-show-airplane" type="b">                    <default>false</default></key>
     <key name="quick-settings-show-rotate" type="b">                      <default>true</default></key>
     <key name="quick-settings-show-bg-apps" type="b">                     <default>true</default></key>
-    
+
   </schema>
 </schemalist>
